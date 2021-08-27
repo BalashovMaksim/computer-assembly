@@ -58,9 +58,9 @@ function bodyLock(){
 
     for(let i = 0; i < lockPadding.length; i++){
         const el = lockPadding[i];
-        // el.style.paddingRight = lockPaddingValue;
+        
     }
-    // body.style.paddingRight = lockPaddingValue;
+
     body.classList.add('lock');
 
     unlock = false;
